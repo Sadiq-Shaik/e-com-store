@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Open Sans", sans-serif;
+  }
+}
+
+/* .my-node-enter {
+  opacity: 0;
+  transform: translateX(-20rem);
+  transform: scale(0.9);
+}
+.my-node-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 4s;
+}
+
+.my-node-exit {
+  opacity: 1;
+}
+.my-node-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transform: translateX(-20rem);
+  transition: all 4s;
+} */
